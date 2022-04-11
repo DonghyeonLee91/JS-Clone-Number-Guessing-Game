@@ -20,9 +20,11 @@ body{
 }
 #result-area{
     font-size: 30px;
+    color : white;
 }
 #chance-area{
     font-size: 30px;
+    color : white ;
 }
 #user-input{
     width: 250px;
