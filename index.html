@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>number-guessing</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
   </head>
   <body>
-    
+    <h1 id="game-title">숫자 맞추기 게임!</h1>
+    <div id="result-area">정답을 맞추세요</div>
+    <div id="chance-area">남은 찬스 5번</div>
+    <input type="number" id="user-input" placeholder="1~100까지 숫자를 입력" />
+    <button id="play-button">Go!</button>
+    <button id="reset-button">리셋!</button>
+
+    <script src="./main.js"></script>
   </body>
 </html>

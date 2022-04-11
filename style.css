@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    padding: 200px 0 0 0;
+    margin: 0;
+    font-family: 'Nanum Pen Script', cursive;
+    background-image: url(./assets/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#game-title{
+    font-size: 60px;
+    color: blue;
+    line-height: 1.33333;
+    letter-spacing: -0.04em;
+    margin-bottom: 50px;
+}
+#result-area{
+    font-size: 30px;
+}
+#chance-area{
+    font-size: 30px;
+}
+#user-input{
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+#play-button{
+    height: 30px;
+    width: auto;
+    border-radius: 4px;
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+#reset-button{
+    height: 30px;
+    width: auto;
+    border-radius: 4px;
+    background-color: blueviolet;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+@media screen and (min-width:768px){
+    #game-title{
+        font-size: 150px;
+        color: blue;
+        line-height: 1.33333;
+        letter-spacing: -0.04em;
+        margin-bottom: 30px;
+    }
+    #result-area{
+        font-size: 50px;
+    }
+    #chance-area{
+        font-size: 50px;
+    }
+    #user-input{
+        width: 500px;
+        height: 50px;
+        border-radius: 4px;
+        border: none;
+        font-size: 20px;
+        font-family: 'Nanum Pen Script', cursive;
+    }
+    #play-button{
+        height: 50px;
+        width: auto;
+        border-radius: 4px;
+        background-color: red;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Nanum Pen Script', cursive;
+    }
+    #reset-button{
+        height: 50px;
+        width: auto;
+        border-radius: 4px;
+        background-color: blueviolet;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Nanum Pen Script', cursive;
+    }
+}
+
